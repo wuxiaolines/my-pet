@@ -1,0 +1,1 @@
+import{ao as t,ap as n}from"./index-CoiW-Gmd.js";const r="buddy_invites";function a(){try{const n=t(r);return Array.isArray(n)?n:[]}catch{return[]}}function s(t){const s=a(),i={...t,id:`buddy_${Date.now()}`,time:"刚刚"};return s.unshift(i),n(r,s),i}export{s as a,a as g};
